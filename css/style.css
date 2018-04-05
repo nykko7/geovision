@@ -1,0 +1,50 @@
+/* Your custom styles */
+.navbar-bold{
+	font-weight: 900;
+}
+
+html,
+body,
+header,
+#intro{
+	height: 100%;
+}
+
+hr {
+  max-width: 100px;
+  border-width: 4px;
+  border-color: #007E33;
+}
+
+footer hr{
+	max-width: 80px;
+  	border-width: 2px;
+  	border-color: white;
+}
+footer a{
+	color: black;
+}
+
+#intro{
+	background: url("../img/landing.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+.top-nav-collapse {
+  background-color: rgba(16, 79, 186, 0.5) !important;
+}
+
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+  }
+}
+.jarallax{
+	min-height: auto;
+}
